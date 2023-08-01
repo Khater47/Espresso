@@ -1,0 +1,35 @@
+@import '../../../styles/configs';
+
+.EspressoBarItem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.EspressoBarContainer {
+	display: flex;
+	justify-content: space-between;
+	border-radius: 0 0 20px 20px;
+	background-color: white;
+	color: $primary-color;
+	border-bottom: 2px solid $primary-color-darkest;
+}
+
+.searchIcon {
+	width: 25px;
+	height: 25px;
+}
+
+.espressoIcon {
+	transform: scaleX(-1);
+}
+
+@font-face {
+	font-family: 'digital-7 (mono)';
+	src: url('../../digital-7 (mono).ttf');
+}
+
+.timerText {
+	font-family: 'digital-7 (mono)';
+	font-size: xx-large;
+}

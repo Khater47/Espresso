@@ -1,0 +1,15 @@
+@import '../../../styles/configs';
+
+.addIcon {
+	position: fixed;
+	top: 25%;
+	right: 0;
+	z-index: 2;
+	padding: 5px 1px 5px 1px;
+	background-color: $accent-color;
+	color: #fff;
+	border-radius: 5px;
+	height: 60px;
+	width: 25px;
+	box-shadow: 0 0 5px #333;
+}

@@ -1,0 +1,29 @@
+@import '../../../styles/configs';
+
+.toastContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(255, 255, 255);
+}
+
+.toast {
+	width: 90%;
+	margin-top: 2%;
+}
+
+.toastContainerMiddle {
+	margin-bottom: 6rem;
+	color: black;
+	border-radius: 25px;
+}
+.toastMiddle {
+	width: fit-content;
+	color: white;
+	font-weight: 900;
+	font-size: medium;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+		Verdana, sans-serif;
+	border-radius: 25px;
+	background-color: rgba(122, 122, 122, 0.928);
+}

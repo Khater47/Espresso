@@ -1,0 +1,60 @@
+@import '../../../styles/configs';
+
+.postType {
+	outline: 2px solid $primary-color;
+	text-align: center;
+	border-radius: 15px;
+	align-items: center;
+	font-weight: bolder;
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+.selected {
+	background-color: $primary-color;
+	color: white;
+	border-radius: 16px;
+}
+
+.header {
+	padding: 7px 16px;
+	div {
+		font-weight: 400;
+	}
+}
+.footer {
+	padding: 4px 12px;
+}
+
+.buttonCancel {
+	color: $primary-color !important;
+	border: 2px solid $primary-color-darkest !important;
+	background-color: transparent !important;
+	font-weight: bold;
+	padding: 2px 9px;
+}
+
+.buttonPost {
+	background-color: $accent-color;
+	font-weight: bold;
+	padding: 3px 12px;
+	border-color: transparent;
+}
+
+.form {
+	outline: 1px solid $primary-color;
+	border-radius: 10px;
+}
+
+.icons {
+	margin-left: -20px;
+	color: $primary-color;
+}
+
+.userIcon {
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	margin-right: 10px;
+	outline: 2px solid $primary-color;
+}

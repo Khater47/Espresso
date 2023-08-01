@@ -1,0 +1,169 @@
+@import '../../../styles/configs';
+
+.header {
+	background-color: rgb(255, 255, 255);
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: fit-content;
+	border-radius: 15px;
+}
+
+.body {
+	padding: 0;
+}
+
+.postCard {
+	margin-top: 1.5rem;
+	border-radius: 15px;
+}
+
+.footer {
+	background-color: $accent-color;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 2rem;
+	border-radius: 0 0 15px 15px;
+}
+
+.profilePhoto {
+	border-radius: 50%;
+	width: 2rem;
+	height: 2rem;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	margin-right: 7px;
+}
+
+.profileData {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.profileName {
+	font-family: 'Montserrat';
+	font-weight: bolder;
+	text-align: left;
+	// font-size: large;
+	height: 1.4rem;
+	margin-top: 5px;
+}
+
+.timeCreated {
+	font-family: 'Montserrat';
+	font-weight: 300;
+	text-align: left;
+	font-size: small;
+	margin-top: -3px;
+}
+
+.postText {
+	padding-top: 0.5rem;
+	font-family: 'Montserrat-Medium';
+	text-align: left;
+	margin-left: 0.75rem;
+	white-space: pre-wrap;
+	display: inline-block;
+	width: 90%;
+	overflow: auto;
+	border-top: 2px solid rgb(226, 226, 226);
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+.toggle {
+	margin-top: 10px;
+	width: 24px !important;
+	height: 24px !important;
+}
+
+.likeText {
+	font-family: 'Montserrat';
+	font-size: smaller;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+}
+
+.showMore {
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.dropDownMenu {
+	padding-right: 0px;
+	hr {
+		border: 1px solid rgb(175, 175, 175);
+	}
+	span {
+		font-weight: 700;
+		margin-left: 10px;
+	}
+}
+
+.dropDownBody {
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.footerLeft {
+	border-bottom-left-radius: 15px;
+	padding-left: 0;
+}
+.footerRight {
+	border-bottom-right-radius: 15px;
+}
+
+.modalBtn {
+	font-weight: bold;
+}
+
+.modalCancelBtn {
+	color: $primary-color-darkest;
+	border-color: $primary-color-darkest;
+}
+
+.modalCancelBtn:active {
+	border-color: $primary-color-darkest !important;
+	background-color: $primary-color-darkest !important;
+}
+
+.modalCancelBtn:hover {
+	border-color: $primary-color-darkest !important;
+	background-color: $primary-color-darkest !important;
+}
+
+.modalHeader {
+	height: fit-content;
+	padding: 8px;
+}
+
+.modalFooter {
+	height: fit-content;
+	padding: 4px;
+}
+
+.buttonEdit {
+	background-color: $accent-color;
+	font-weight: bold;
+	padding: 3px 12px;
+	border-color: transparent;
+}
+
+.buttonCancel {
+	color: $primary-color !important;
+	border: 2px solid $primary-color-darkest !important;
+	background-color: transparent !important;
+	font-weight: bold;
+	padding: 2px 9px;
+}
+
+.icons {
+	margin-left: -20px;
+	color: $primary-color;
+}
+
+.footerEdit {
+	height: fit-content;
+	padding: 4px 12px;
+}
